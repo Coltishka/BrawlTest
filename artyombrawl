@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artyom Brawl Private Server</title>
+    <style>
+        body {
+            background-color: #87CEEB; /* Светло-голубой фон */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffcc66;
+            color: #333;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 { font-size: 2.5em; }
+
+        /* Стиль светлых секций */
+        .section {
+            padding: 30px;
+            margin: 20px auto;
+            background: linear-gradient(145deg, #ffffff, #f9c6a0); /* Изменён цвет фона секций */
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.25); /* Увеличена тень */
+            max-width: 600px;
+            color: #333;
+        }
+        .section h2 { font-size: 1.8em; color: #ff8c1a; margin-bottom: 15px; }
+        .section p { font-size: 1.1em; line-height: 1.6; }
+
+        .button {
+            padding: 15px 30px;
+            background-color: #ff8c1a;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+            margin-top: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .button:hover {
+            background-color: #ff751a;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .support a {
+            color: #0088cc;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .support a:hover { color: #005f8c; }
+
+        footer {
+            padding: 20px;
+            background-color: #ffcc66;
+            color: #333;
+            font-weight: bold;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+            margin-top: 30px;
+        }
+
+        /* Добавление стилей для изображений */
+        .brawler-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .brawler-images img {
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Стили для названий бравлеров */
+        .brawler-images figure {
+            margin: 10px;
+            text-align: center; /* Центрируем текст под изображением */
+        }
+        .brawler-images figcaption {
+            font-weight: bold; /* Жирный шрифт для названий */
+            margin-top: 5px; /* Отступ сверху для лучшего визуального разделения */
+        }
+
+        /* Стили для новой секции прав */
+        .rights {
+            background-color: #ffe5b4; /* Цвет фона для секции прав */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 20px auto;
+            max-width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Artyom Brawl Private Server</h1>
+        <p>Добро пожаловать на приватный сервер Artyom Brawl!</p>
+    </div>
+
+    <div class="section" id="features">
+        <h2>Особенности</h2>
+        <p>Имеются интересные и особенные бравлеры. Скоро будут боссы! Ожидайте в следующем обновлении.</p>
+    </div>
+
+    <div class="section" id="popular-brawlers">
+        <h2>Популярные Бравлеры</h2>
+        <div class="brawler-images">
+            <figure>
+                <img src="https://brawldb.ru/wp-content/uploads/2020/08/%D0%9C%D0%B8%D0%BD%D0%B8-%D1%80%D0%BE%D0%B1%D0%BE%D1%82.png" alt="Дрейм">
+                <figcaption>Дрейм</figcaption>
+            </figure>
+            <figure>
+                <img src="https://static.wikia.nocookie.net/brawlstars/images/a/a0/%D0%94%D0%B6%D0%B8%D0%BD_%D0%B7%D0%BB%D0%BE%D0%B9.png/revision/latest/scale-to-width-down/250?cb=20201028131844&path-prefix=ru" alt="Дьявол">
+                <figcaption>Дьявол</figcaption>
+            </figure>
+            <figure>
+                <img src="https://i.pinimg.com/564x/d3/ac/a1/d3aca1b2d977d532baf660c7ec8211e7.jpg" alt="Амальтея">
+                <figcaption>Амальтея</figcaption>
+            </figure>
+        </div>
+        <p>Познакомьтесь с нашими любимыми бравлерами, готовыми к бою!</p>
+    </div>
+
+    <div class="section" id="download">
+        <h2>Скачать</h2>
+        <p>Нажмите на кнопку ниже, чтобы скачать последнюю версию:</p>
+        <a href="https://drive.google.com/file/d/1-XiGlCVJjT_k2M78I7tiu-PzyjMFQ6Fr/view?usp=drivesdk" class="button">Скачать Artyom Brawl</a>
+    </div>
+
+    <div class="section support" id="support">
+        <h2>Поддержка</h2>
+        <p>Есть вопросы? Присоединяйтесь к нашему <a href="https://discord.gg/YmzNvkhtEM">Discord</a> или <a href="https://t.me/+4eVkA_zKFDcyM2Uy">Telegram</a> для поддержки и новостей.</p>
+    </div>
+
+    <div class="rights">
+        <h2>Права защищены</h2>
+        <p>Все материалы и контент, представленные на данном сайте, являются собственностью Artyom Brawl. Все права защищены.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Artyom Brawl. Все права защищены.</p>
+    </footer>
+</body>
+</html>
